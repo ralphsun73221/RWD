@@ -1,5 +1,5 @@
-@import "../module/reset.scss";
-@import "../module/border-box.scss";
+@import "module/reset.scss";
+@import "module/border-box.scss";
 
 body {
 	margin: 0 auto;
@@ -60,7 +60,7 @@ body {
 				overflow: hidden;
 				width: 170px;
 				height: 36px;
-				background: url(/images/logo.png) no-repeat;
+				background: url(2-3-18/images/logo.png) no-repeat;
 				text-indent: 101%;
 				white-space: nowrap;
 			}
