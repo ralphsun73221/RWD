@@ -225,7 +225,7 @@ body header nav h1 {
   overflow: hidden;
   width: 170px;
   height: 36px;
-  background: url(/2-3-18/images/logo.png) no-repeat;
+  background: url(2-3-18/images/logo.png) no-repeat;
   text-indent: 101%;
   white-space: nowrap;
 }
