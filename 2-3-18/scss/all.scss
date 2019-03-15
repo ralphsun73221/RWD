@@ -1,5 +1,5 @@
-@import "../scss/reset.scss";
-@import "../scss/border-box.scss";
+@import "../module/reset.scss";
+@import "../module/border-box.scss";
 
 body {
 	margin: 0 auto;
@@ -91,4 +91,4 @@ body {
 		}
 	}
 }
-@import "../scss/mobile.scss";
+@import "mobile.scss";
