@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CACD,CAAC,AAAA,OAAO,CACR,CAAC,AAAA,MAAM,AAAC,CACP,UAAU,CAAE,UAAU,CACtB",
+    "sources": [
+        "../../border-box.scss"
+    ],
+    "names": [],
+    "file": "border-box.min.css"
+}
