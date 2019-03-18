@@ -1,5 +1,5 @@
-@import "module/reset.scss";
-@import "module/border-box.scss";
+@import "module/reset";
+@import "module/border-box";
 
 body {
 	margin: 0 auto;
@@ -37,13 +37,14 @@ body {
 			justify-content: space-between;
 			padding: 0 1%;
 			ul {
-				display: inline-flex;
+				display: flex;
 				align-items: center;
 				.index {
 					border-bottom: 3px solid;
 				}
 				li {
 					margin-left: 20px;
+					width: 50%;
 					a {
 						padding: 9.5px 0;
 						color: #00cc99;
@@ -92,4 +93,4 @@ body {
 		}
 	}
 }
-@import "mobile.scss";
+@import "mobile";
