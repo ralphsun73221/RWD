@@ -1,9 +1,10 @@
 body {
 	header {
 		nav {
+			align-items: center;
 			@media (max-width: 767px) {
 				h1 {
-					align-self: center;
+					// align-self: center;
 					max-width: 100%;
 				}
 				ul {
