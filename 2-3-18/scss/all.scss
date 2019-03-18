@@ -37,21 +37,20 @@ body {
 			justify-content: space-between;
 			padding: 0 1%;
 			ul {
-				display: flex;
+				display: inline-flex;
 				align-items: center;
 				.index {
 					border-bottom: 3px solid;
 				}
 				li {
-					// margin-left: 20px;
-					width: 50%;
+					margin-left: 20px;
+					text-align: right;
 					a {
-						padding: 9.5px 0;
 						color: #00cc99;
 						text-decoration: none;
 					}
 					a:hover {
-						padding: 9.5px 10px;
+						padding: 9.5px 25px;
 						background: #00cc99;
 						color: #fff;
 					}

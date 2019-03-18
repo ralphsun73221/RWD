@@ -1,13 +1,24 @@
 body {
-	nav {
-		@media (max-width: 767px) {
-			h1 {
-				max-width: 100%;
-			}
-			ul {
-				flex-wrap: wrap;
-				li {
-					max-width: (100% / 2);
+	header {
+		nav {
+			@media (max-width: 767px) {
+				h1 {
+					align-self: center;
+					max-width: 100%;
+				}
+				ul {
+					flex-wrap: wrap;
+					li {
+						margin-left: 0;
+						padding: 10px 0;
+						width: (100% / 2);
+						height: auto;
+						a:hover {
+							padding: 0px 0px;
+							background: #00cc99;
+							color: #fff;
+						}
+					}
 				}
 			}
 		}
