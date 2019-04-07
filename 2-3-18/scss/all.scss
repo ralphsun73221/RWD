@@ -1,5 +1,5 @@
-@import "module/reset";
-@import "module/border-box";
+@import "model/reset";
+@import "model/border-box";
 
 body {
 	margin: 0 auto;
@@ -92,4 +92,4 @@ body {
 		}
 	}
 }
-@import "mobile";
+@import "model/mobile";

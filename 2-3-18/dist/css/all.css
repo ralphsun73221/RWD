@@ -267,46 +267,39 @@ body main article p {
   line-height: 1.5;
 }
 
-body header nav {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-@media (max-width: 767px) {
-  body header nav h1 {
-    max-width: 100%;
-  }
-  body header nav ul {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  body header nav ul li {
-    margin-left: 0;
-    padding: 10px 0;
-    width: 50%;
-    height: auto;
-  }
-  body header nav ul li a:hover {
-    padding: 0px 0px;
-    background: #00cc99;
-    color: #fff;
+@media (max-width: 768px) {
+  .wrap .list ul li {
+    width: 48%;
   }
 }
 
-@media (max-width: 767px) {
-  body main {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
+@media (max-width: 576px) {
+  .wrap {
+    display: block;
+  }
+  .wrap div {
+    padding: 20px 0;
+  }
+  .wrap .menu {
+    width: 100%;
+    line-height: 0.5em;
+  }
+  .wrap .menu ul {
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
-  body main article {
-    padding: 2% 5%;
-    max-width: 98%;
+  .wrap .menu li {
+    width: 100%;
+    text-align: center;
+  }
+  .wrap .list {
+    width: 100%;
+  }
+  .wrap .list ul li {
+    width: 98%;
   }
 }
-/*# sourceMappingURL=all.css.map */

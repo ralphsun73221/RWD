@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,CAAC;AACD,CAAC,AAAA,OAAO;AACR,CAAC,AAAA,MAAM,CAAC;EACP,UAAU,EAAE,UAAU;CACtB",
-    "sources": [
-        "../../module/border-box.scss"
-    ],
-    "names": [],
-    "file": "border-box.css"
-}
